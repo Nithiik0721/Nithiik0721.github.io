@@ -1,0 +1,30 @@
+body {
+  font-family:Arial; 
+  margin:0; 
+  padding:20px; 
+  background:linear-gradient(135deg,#ffa500,#ffff00);
+  background-attachment:fixed;
+  text-align:center
+}
+h1,h3 {
+  color:#333;
+}
+img {
+  max-width:90%;
+  margin:10px 0;
+  border:2px solid #333;
+  border-radius:5px
+}
+a {
+  display:inline-block;
+  margin:10px 0;
+  padding:8px 15px;
+  background-color:#ff8c00; 
+  color:white;
+  text-decoration:none; 
+  border-radius:5px; 
+  font-weight:bold;
+}
+a:hover {
+  background-color:#ff6b00;
+}
