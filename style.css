@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(135deg, #ffb347, #ffcc33, #ff8c42);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1, h3 {
+    color: #333;
+}
+
+h3 {
+    color: #ff6b35;
+}
+
+img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    background: #ff6b35;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
